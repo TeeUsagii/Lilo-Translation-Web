@@ -31,6 +31,15 @@ li {
     list-style: none;
 }
 
+a {
+    color: inherit;
+    text-decoration: inherit; /* no underline */
+}
+
+.navbar-brand {
+    color: #D08585
+}
+
 .nav-link {
     padding-left: 20px;
     padding-right: 20px;
@@ -45,7 +54,6 @@ li {
 .border-bottom {
     position: relative;
 }
-
 
 .border-bottom ::after {
     content: '';
@@ -67,9 +75,6 @@ li {
     border-left: 5px solid #D08585;
 }
 
-.navbar-brand {
-    color: #D08585
-}
 
 #masthead {
     margin-top: 74px;
@@ -78,6 +83,14 @@ li {
 container-fluid .start-block {
     background-color: #D08585;
     width: 5px;
+}
+
+.comic-cover-size {
+    width: 15rem;
+}
+
+.comic-img-text:hover {
+    color: rgba(125, 49, 49, 0.3);
 }
 
 footer .container-fluid {

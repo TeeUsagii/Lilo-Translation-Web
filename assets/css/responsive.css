@@ -1,0 +1,27 @@
+/* PC */
+@media (min-width: 64rem) {
+    /* CSS for PC */
+}
+
+/* Tablet */
+@media (max-width: 63.938rem) and (min-width: 48rem) {
+
+    /* CSS for tablet */
+    .comic-cover-size {
+        width: 13rem;
+    }
+}
+
+/* Mobile */
+@media (max-width: 47.938rem) {
+
+    /* CSS for mobile */
+    .comic-cover-size {
+        width: 10rem;
+    }
+
+    .comic-img-text {
+        font-size: 18px;
+    }
+
+}
