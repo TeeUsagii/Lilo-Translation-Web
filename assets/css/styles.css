@@ -34,10 +34,11 @@ body {
 }
 
 #masthead {
-    background-image: url('../img/cover1.png');
-    height: 30rem;
-    background-size: cover;
-    background-position-y: 20%;
+    /* background-image: url('../img/cover1.png'); */
+    position: relative;
+    margin-top: 74px;
+    padding-top: 50%;
+    background: url('../img/cover1.png') top center/ cover no-repeat;
 }
 
 li {
