@@ -27,15 +27,27 @@ body {
     padding: 0;
 }
 
+li {
+    list-style: none;
+}
+
+.nav-link {
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
 .active {
+    position: relative;
+    border-bottom: 3px solid #D08585;
+}
+
+.border-bottom {
     position: relative;
 }
 
-/* .ul li {
-    position: relative;
-} */
 
-ul li::after {
+.border-bottom ::after {
     content: '';
     position: absolute;
     left: 0;
@@ -46,11 +58,10 @@ ul li::after {
     transition: width 0.4s ease-in-out;
 }
 
-ul li:hover::after {
+.border-bottom :hover::after {
     width: 100%;
-    transform-origin: right;
+    transform-origin: left;
 }
-
 
 .navbar-brand {
     color: #D08585
@@ -64,9 +75,8 @@ ul li:hover::after {
     background: url('../img/cover1.png') top center/ contain no-repeat;
 }
 
-li {
-    list-style: none;
-}
+container-fluid
+
 
 .start-block {
     background-color: #D08585;
