@@ -63,6 +63,10 @@ li {
     transform-origin: left;
 }
 
+.border-left {
+    border-left: 5px solid #D08585 ;
+}
+
 .navbar-brand {
     color: #D08585
 }
