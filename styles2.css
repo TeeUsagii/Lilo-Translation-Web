@@ -1,0 +1,102 @@
+/*Import Google Fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Passion+One&display=swap');
+
+
+/*Style for body/html*/
+html, body {
+    overflow-x: hidden; /*Do not show if contents are overflow horizontally*/
+    scroll-margin: 0;
+}
+
+html {
+  scroll-padding-top: calc(4.5rem - 1px);
+}
+
+/*Background*/
+body {
+  background-color:#FAF8F8;
+  letter-spacing: 0.01em;
+  font-family: "Plus Jakarta Sans", "Outfit";
+  color: #5c5c5c;
+  margin: 0;
+  padding: 0;
+}
+
+.active {
+    border-bottom: 3px solid #D08585;
+}
+
+.navbar-brand {
+    color:#D08585
+}
+
+#masthead {
+    background-image: url('cover2.jpg');
+    height: 30rem;
+    background-size: cover;
+    background-position-y: 20%;
+}
+
+li {
+    list-style: none;
+}
+
+.start-block {
+    background-color: #D08585;
+    width: 5px;
+}
+
+footer .container-fluid {
+    background-color: #D08585;
+    color: white;
+    margin-top: 100vh;
+}
+
+footer {
+    margin-top: 10rem;
+}
+
+#manga-header {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.3) 20%, rgba(0, 0, 0, 1)), url('mangacv1.png');
+    background-size: cover;
+    background-position-y: 40%;
+    height: 30rem;
+}
+
+.title-box {
+    transform: translateY(10rem);
+    align-items: center;
+    height: 100%;
+}
+
+.info-box {
+    background-color: #D08585;
+    height: 100%;
+}
+
+.manga-cover {
+    transform: translateY(-6.5rem)
+}
+
+.tag {
+    font-weight:500;
+    background-color: #D08585;
+    color: white;
+    padding: 0.2rem 0.5rem;
+    margin-right: 0.3rem;
+}
+
+.status-on {
+    color:#637E5C;
+}
+
+.status-pause {
+    color:#cc6161;
+}
+
+.status-done {
+    color:#4662af;
+}
