@@ -1,0 +1,31 @@
+/* PC */
+@media (min-width: 66rem) {
+
+    /* CSS for PC */
+    .right-comic-cover {
+        justify-content: flex-end !important;
+        display: flex !important;
+    }
+
+
+
+}
+
+/* Tablet and Mobile */
+@media (max-width: 65.938rem) {
+    .comic-cover {
+        width: 70%;
+    }
+    .right-comic-cover {
+        justify-content: center !important;
+        display: flex !important;
+    }
+    
+    .container-bgw {
+        --bs-gutter-x: none !important;
+    }
+
+    .title-comic {
+        transform: scale(0);
+    }
+}

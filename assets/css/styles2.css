@@ -81,6 +81,10 @@ footer {
     transform: translateY(-6.5rem)
 }
 
+.comic-cover {
+    width: 25rem;
+}
+
 .tag {
     font-weight:500;
     background-color: #D08585;

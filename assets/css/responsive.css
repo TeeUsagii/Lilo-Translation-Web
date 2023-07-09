@@ -10,10 +10,11 @@
     .comic-cover-size {
         width: 13rem;
     }
+    
 }
 
 /* Mobile */
-@media (max-width: 47.938rem) {
+@media (max-width: 47.938rem){
 
     /* CSS for mobile */
     .comic-cover-size {
@@ -25,3 +26,4 @@
     }
 
 }
+
