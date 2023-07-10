@@ -51,7 +51,7 @@ body {
 }
 
 #masthead {
-    background-image: url('cover2.jpg');
+    background-image: url('../../assets/img/cover2.jpg');
     height: 30rem;
     background-size: cover;
     background-position-y: 20%;
@@ -155,48 +155,5 @@ footer {
     height: 100%;
 }
 
-@media screen and (min-width: 1201px){
-    .summary-text {
-        height: 8rem;
-        overflow-y: scroll;
-    }
-}
 
-@media screen and (max-width: 1200px) {
-    .info-box {
-        height: 33rem;
-    }
-
-    .summary-wrapper {
-        padding: 0 0.75rem;
-    }
-}
-
-@media screen and (min-width: 992px) and (max-width: 1081px) {
-    .summary-wrapper {
-        padding: 0;
-    }
-}
-
-@media screen and (max-width: 992px) {
-    .info-box {
-        height: 38rem;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .info-box {
-        box-shadow: none;
-        height: 100%;
-    }
-
-    .manga-title, .manga-alias {
-        color:#5c5c5c ;
-    }
-
-    .title-box {
-        top:-10rem;
-    }
-
-}
 

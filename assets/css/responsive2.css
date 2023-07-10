@@ -1,31 +1,44 @@
-/* PC */
-@media (min-width: 66rem) {
-
-    /* CSS for PC */
-    .right-comic-cover {
-        justify-content: flex-end !important;
-        display: flex !important;
+@media screen and (min-width: 1201px){
+    .summary-text {
+        height: 8rem;
+        overflow-y: scroll;
     }
-
-
-
 }
 
-/* Tablet and Mobile */
-@media (max-width: 65.938rem) {
-    .comic-cover {
-        width: 70%;
-    }
-    .right-comic-cover {
-        justify-content: center !important;
-        display: flex !important;
-    }
-    
-    .container-bgw {
-        --bs-gutter-x: none !important;
+@media screen and (max-width: 1200px) {
+    .info-box {
+        height: 33rem;
     }
 
-    .title-comic {
-        transform: scale(0);
+    .summary-wrapper {
+        padding: 0 0.75rem;
     }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1081px) {
+    .summary-wrapper {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .info-box {
+        height: 38rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .info-box {
+        box-shadow: none;
+        height: 100%;
+    }
+
+    .manga-title, .manga-alias {
+        color:#5c5c5c ;
+    }
+
+    .title-box {
+        top:-10rem;
+    }
+
 }
